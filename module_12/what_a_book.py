@@ -137,7 +137,7 @@ try:
                     addBookID = input("\nEnter the Book ID you want to add to your wishlist! ")
                     validBookID = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
                     while addBookID not in validBookID:
-                        print("\n** Invlaid Book ID. Please try again! **")
+                        print("\n** Invalid Book ID. Please try again! **")
                         addBookID = input("\nEnter the Book ID you want to add to your wishlist! ")
                     if addBookID in validBookID:
                         validBookID = int(addBookID)
